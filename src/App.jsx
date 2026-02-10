@@ -4,7 +4,7 @@ import Quiz from './components/pages/Quiz';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dnd" element={<Quiz category="DnD" title="DnD" />} />

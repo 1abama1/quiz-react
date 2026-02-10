@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://zexxuc.github.io/project/",
+  "homepage": "https://1abama1.github.io/quiz-react/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
